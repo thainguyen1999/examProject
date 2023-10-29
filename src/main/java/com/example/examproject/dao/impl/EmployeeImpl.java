@@ -43,7 +43,7 @@ public class EmployeeImpl implements EmployeeDAO {
         EmployeeEntity employee = entityManager.find(EmployeeEntity.class, employeeEntity.getId());
         if (employee!= null) {
             try {
-                entityTransaction.begin();
+                entityTransaction.begi n();
                 entityManager.remove(employee);
                 entityTransaction.commit();
             } catch (Exception ex) {

@@ -56,7 +56,7 @@ public class EmployeeServlet extends HttpServlet {
         String position = req.getParameter("position");
         String department = req.getParameter("department");
         EmployeeEntity newEmployee = new EmployeeEntity(fullname,address,birthday,position,department);
-        employeeDAO.create(newEmployee);
+        employeeDAO. create(newEmployee);
         resp.sendRedirect("employeeServlet");
     }
 }
