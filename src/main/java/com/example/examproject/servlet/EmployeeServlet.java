@@ -1,6 +1,6 @@
 package com.example.examproject.servlet;
 
-import com.example.examproject.dao.impl.EmployeeDAO;
+import com.example.examproject.dao.EmployeeDAO;
 import com.example.examproject.dao.impl.EmployeeImpl;
 import com.example.examproject.entity.EmployeeEntity;
 import jakarta.servlet.ServletException;

@@ -1,5 +1,6 @@
 package com.example.examproject.dao.impl;
 
+import com.example.examproject.dao.EmployeeDAO;
 import com.example.examproject.entity.EmployeeEntity;
 
 import javax.persistence.EntityManager;
@@ -9,7 +10,7 @@ import javax.persistence.Query;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmployeeImpl implements EmployeeDAO{
+public class EmployeeImpl implements EmployeeDAO {
     EntityManager entityManager;
     EntityTransaction entityTransaction;
     public EmployeeImpl() {
